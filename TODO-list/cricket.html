@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML project</title>
+    <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 4000px)" href='project.css' />
+    <style>
+    .column1 {
+        float:left;
+        width: 17%;
+
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right:10px;
+        transition: .1s;
+    }
+    .column2 {
+      position:relative;
+      left:350px;
+      top:80px;
+      bottom:100px;
+      width:5%;
+      padding:125px;
+      transition:transform .2s;
+
+    }
+    .column3 {
+      float:left;
+      width: 17%;
+      top:100px;
+      padding-top:30px;
+      padding-left: 30px;
+      padding-right:10px;
+      transition:transform .2s;
+    }
+    .column2:hover,.column1:hover,.column3:hover{
+      transform:scale(1.2);
+    }
+    </style>
+  </head>
+<!--Side bar-->
+<body >
+  <div class="back"><h1>World Cup<br>
+                          Cricket</h1></br>
+    <div class="sub" font="10">
+    <a href="homepage.html" class="hover side_button">Home</a>
+    <a href="#result" class="hover side_button">Result</a>
+    <a href="#highlights" class="hover side_button">Highlights</a>
+   
+    <a href="#top" class="hover side_button">Top</a>
+    </div>
+  </div>
+  <div class="w3-main" style="margin-left:300px;margin-right:35px">
+  <div id="home">
+    <div class="column1">
+          <img src="newzeland.png" style="width:110px">
+      </div>
+    <div class="column1">
+        <img src="aus.jfif" style="width:110px">
+    </div>
+    <div class="column1">
+        <img src="eng.png" style="width:68px">
+    </div>
+    <div class="column1">
+        <img src="sa.jpeg"style="width:110px">
+    </div>
+    <div class="column1">
+       <img src="india.jfif" style="width:120px" usemap="#india">
+     <map name="india">
+       <area shape="circle" coords="45,60,50" href="anime.html">
+     </map>
+    </div>
+    <div class="column2">
+        <img src="trophy.jpeg" usemap="#cup">
+        <map name="cup">
+        <area shape="circle" coords="120,130,90" href="anime.html">
+      </map>
+     </div>
+     <div class="column3">
+        <img src="pak.png" style="width:110px">
+      </div>
+      <div class="column3">
+
+        <img src="westindies.jfif"  style="width:110px">
+    </div>
+    <div class="column3">
+        <img src="bangla.png" style="width:120px"><br>
+    </div>
+    <div class="column3">
+        <img src="afghan.png" style="width:120px">
+    </div>
+    <div class="column3">
+        <img src="srilanka.jfif"  style="width:110px">
+      </div>
+  </div>
+  <br><br><br><br><br>
+  <div id="result">
+    <br><br><br><br><br><br><br><br><br>
+    <h1 style="font-family:courier;font-size:50px">Result</h1>
+      <div class="card">
+        <a href="#" class="res_href">
+          <div class="res_container">
+            <h2 style="padding-left:20px" >Match 21</h2>
+            <p style="font-size:22px;padding-left:20px">Aus vs NZ</p>
+            <p style="padding-left:20px">Aus 309/10  </p>
+            <p style="padding-left:20px">NZ  300/10</p>
+            
+            </div>
+      </a>
+      </div>
+      <div class="card">
+        <a href="" class="res_href">
+          <div class="res_container">
+            <h2 style="padding-left:20px" >Match 22</h2>
+            <p style="font-size:22px; padding-left:20px;">IND vs PAK</p>
+            <p style="padding-left:20px">IND 341/5  </p>
+            <p style="padding-left:20px">NZ  338/9</p>
+           
+          </div>
+        </a>
+      </div>
+<div class="card">
+<a href="" class="res_href">
+<div class="res_container">
+<h2 style="padding-left:20px">Match 23</h2>
+<p style="font-size:22px; padding-left:20px">Aus vs IND</p>
+<p style="padding-left:20px">Aus 309/10  </p>
+<p style="padding-left:20px">IND  255/10</p>
+</a>
+</div>
+</div>
+
+    <div id="highlights">
+      <h1 style="font-family:courier;font-size:50px">Highlights</h1>
+      <div class="high">
+        <a href="" class="high_button">
+        <img src="29world-cup-2015-l.jpg" alt="Australia Cricket team" style="width:100%;">
+
+        <div class="container">
+        <p><big><b>2015 final</b></big></p>
+        </div>
+          </a>
+      </div>
+      <div class="high">
+        <a href="" class="high_button">
+        <img src="Australia-vs-india-March-26-2015.jpg" alt="Australia Cricket team" style="width:100%">
+
+        <div class="container">
+        <p><big><b>Semi Final 2</b></big></p>
+        </div>
+          </a>
+        </div>
+        <div class="high">
+          <a href="" class="high_button">
+          <img src="semi_1.jpg" alt="Australia Cricket team" style="width:100%">
+
+          <div class="container">
+          <p><big><b>Semi Final 1</b></big></p>
+          </div>
+            </a>
+          </div>
+        
+        </div>
+      </body>
+</html>
